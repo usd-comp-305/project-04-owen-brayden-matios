@@ -13,13 +13,14 @@ class LoanTest {
 
     @Test
     void testCalculateResultIsNull() {
-        Loan loan = new Loan(0.0,0.0,0,null);
+        Loan loan = new CarLoan(0.0,0.0,0,null);
         assertNull(loan.calculateResult());
     }
 
     @Test
     void calculateMonthlyPayment() {
-        Loan loan = new Loan(0.0,0.0,0,null);
-        assertEquals(0.0, loan.calculateResult());
+        Loan loan = new HouseLoan(0.0,0.0,0,null);
+        assertEquals(0.0, loan.calculateMonthlyPayment());
     }
 }
+

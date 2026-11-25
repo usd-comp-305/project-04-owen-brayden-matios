@@ -21,6 +21,7 @@ class CarLoanTest {
     @Test
     void calculateMonthlyPayment() {
         Loan loan = new CarLoan(0.0,0.0,0,null);
-        assertEquals(0.0, loan.calculateResult());
+        assertEquals(0.0, loan.calculateMonthlyPayment());
     }
 }
+
