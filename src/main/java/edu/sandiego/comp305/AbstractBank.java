@@ -1,13 +1,12 @@
 package edu.sandiego.comp305;
 
 import java.util.Map;
-import java.util.HashMap;
 
-public abstract class Bank {
+public abstract class AbstractBank {
     private String name;
     private Map<String, Double> rates;
 
-    public Bank(String name, Map<String, Double> rates){
+    public AbstractBank(String name, Map<String, Double> rates){
         this.name = name;
         this.rates = rates;
     }
