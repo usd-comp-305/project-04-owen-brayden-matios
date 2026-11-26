@@ -1,6 +1,9 @@
 package edu.sandiego.comp305;
 
 public class Main {
-    public static void main(String[] args) {
+    private Main() {
+    }
+
+    public static void main(final String[] args) {
     }
 }
