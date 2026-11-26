@@ -6,5 +6,5 @@ public abstract class BankAccount implements Investment {
     private Bank bank;
 
     @Override
-    public abstract Result calculateGrowth();
+    public abstract InvestmentResult calculateGrowth();
 }
