@@ -17,6 +17,22 @@ public abstract class Loan {
         this.bank = bank;
     }
 
+    public double getPurchasePrice() {
+        return purchasePrice;
+    }
+
+    public double getDownPaymentPrice() {
+        return downPaymentPrice;
+    }
+
+    public int getYears() {
+        return years;
+    }
+
+    public Bank getBank() {
+        return bank;
+    }
+
     public InvestmentResult calculateResult(){
         return null;
     }

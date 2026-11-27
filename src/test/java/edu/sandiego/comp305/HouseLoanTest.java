@@ -7,10 +7,6 @@ import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.mock;
 
 class HouseLoanTest {
-    @BeforeEach
-    void setUp() {
-        Bank fakeBank = mock(Bank.class);
-    }
 
     @Test
     void testCalculateResultIsNull() {

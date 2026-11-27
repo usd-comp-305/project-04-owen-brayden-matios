@@ -9,7 +9,7 @@ public abstract class Bank {
 
     public Bank(final String name, final Map<String, Double> rates){
         this.name = name;
-        this.rates = rates;
+        this.rates = Map.copyOf(rates);
     }
 
     public String getName(){
