@@ -5,7 +5,8 @@ public class InvestmentResult {
 
     private double totalInterest;
 
-    public InvestmentResult(final double finalBalance, final double totalInterest) {
+    public InvestmentResult(final double finalBalance,
+                            final double totalInterest) {
         this.finalBalance = finalBalance;
         this.totalInterest = totalInterest;
     }

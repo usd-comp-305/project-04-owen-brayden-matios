@@ -16,7 +16,7 @@ public abstract class Bank {
         return name;
     }
 
-    public double getRate(String accountType){
+    public double getRate(final String accountType){
         final Double rate = rates.get(accountType);
         if(rate == null){
             throw new IllegalArgumentException(
